@@ -8,10 +8,10 @@ public class Solution {
         int answer = 0;
 
         if (age_type.equals("Korea")) {
-            answer = 2030 - year +1;
+            answer = 2030 - year + 1;
         }
         else if (age_type.equals("Year")) {
-            answer = 2030 - year ;
+            answer = 2030 - year;
         }
 
         System.out.println(answer);
